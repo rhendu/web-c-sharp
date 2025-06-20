@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.FruitController",
+    "Method": "GetFruits",
+    "RelativePath": "api/Fruit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.Models.Fruit, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.FruitController",
+    "Method": "InsertFruit",
+    "RelativePath": "api/Fruit/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fruit",
+        "Type": "WebApplication1.Models.Fruit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.FruitController",
+    "Method": "DeleteFruit",
+    "RelativePath": "api/Fruit/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.FruitController",
+    "Method": "UpdateFruit",
+    "RelativePath": "api/Fruit/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fruit",
+        "Type": "WebApplication1.Models.Fruit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
